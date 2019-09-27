@@ -5,7 +5,9 @@ Linguagem:
 C++
 
 Assuntos:
+
 > String
+> Matrizes
 > Pilha
 > Lista
 > Fila
