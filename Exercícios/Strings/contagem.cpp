@@ -12,7 +12,7 @@ int main(){
     getline (cin, frase);
 
     for (int j=0; j<frase.size(); j++){
-        if (frase[j]=='a' || frase[j]=='A' || frase[j]==){
+        if (frase[j]=='a' || frase[j]=='A'){
             a++;
         }
         else if (frase[j]=='e' || frase[j]=='E'){
