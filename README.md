@@ -6,9 +6,10 @@ C++
 
 Assuntos:
 
-> String
-> Matrizes
-> Pilha
-> Lista
-> Fila
-> Ponteiro
+. String
+. Matrizes
+. Funções
+. Pilha
+. Lista
+. Fila
+. Ponteiro
