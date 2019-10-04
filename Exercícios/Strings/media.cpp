@@ -5,21 +5,29 @@
 using namespace std;
 
 int main(){
-    string nome[3], sobrenome[3];
-    float n1, n2, n3, media[3];
+    int q, n;
+    cout << "Insira a quantidade de alunos e a quantidade de notas, respectivamente: ";
+    cin >> q >> n;
+    cin.ignore();
 
-    for (int i=0; i<3; i++){
+    string nome[q];
+    float notas[n], media[q];
+
+    for (int i=0; i<q; i++){
         cout << "Insira o nome completo do aluno:\n";
-        cin >> nome[i];
-        getline(cin, sobrenome[i]);
+        getline(cin, nome[i]);
 
-        cout << "Insira as 3 notas do aluno:\n";
-        cin >> n1 >> n2 >> n3;
-        media[i] = (n1+n2+n3)/3;
-        cout << media[i] << endl;
+        cout << "Insira as notas do aluno:\n";
+        for (int j=0; j<n; j++){
+            cin >> notas[j];
+            media[i] = media[i]+notas[j];
+        
+        }
+        media[i]=media[i]/n;
+        cin.ignore();
     }
-   // for (int i=0; i<3; i++){
-    //    cout << "A média de " << nome[i] << sobrenome[i] << " é: " << media[i] << endl;
-   // }
+    for (int i=0; i<q; i++){
+        cout << nome[i] << "\nMédia: " << media[i] << endl;
+    }
 
 }

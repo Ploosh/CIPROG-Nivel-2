@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
     string palavra;
-    string vogais = "ãẽĩõũ";
+    string vogais = "aeiouAEIOU";
     int quant=0;
     float porcento;
     cout << "Digite a palavra: ";
