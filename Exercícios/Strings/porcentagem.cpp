@@ -20,10 +20,8 @@ int main(){
 
     //quantidade de vogais na palavra
     for (int i=0; i<palavra.size(); i++){
-        for (int j=0; j<15; j++){
-            if (palavra[i]==vogais[j]){
-                quant++;
-            }
+        if(vogais.find(palavra[i])!=string::npos){
+            quant++;
         }
     }
     cout << "A palavra tem " << quant <<" vogais\n";
