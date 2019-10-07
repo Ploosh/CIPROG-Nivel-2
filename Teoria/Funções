@@ -1,0 +1,23 @@
+Como declarar:
+    tipo de retorno nomedafunção (argumentos)
+
+Exemplo:
+    #include <iostream>
+    using namespace std;
+
+    void mensagem(); //protótipo da função
+
+    int main (){
+        mensagem (); //chamando a função
+        return 0;
+    }
+
+    void mensagem(){ //função
+        cout << "Oi eu sou uma função!\n"
+    }
+
+    //caso não queira prototipar a função, é necessário colocar ela acima do int main,
+    //para que ela seja compilada antes da main
+
+Comando return:
+    Serve para manipular posteriormente o resultado obtido ao rodar a função
