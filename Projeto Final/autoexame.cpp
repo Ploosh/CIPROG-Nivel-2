@@ -41,7 +41,7 @@ int main(){
       cin >> s;
       while (isnumber(s)==false){
         cin.clear();
-        cout << "A idade precisa ser um núemro.";
+        cout << "A idade precisa ser um número.";
         cout << "\nQual a sua idade?\n";
         cin >> s;
       }
@@ -141,7 +141,7 @@ int main(){
         cin >> s;
         while (isnumber(s)==false){
           cin.clear();
-          cout << "A idade precisa ser um núemro.";
+          cout << "A idade precisa ser um número.";
           cout << "\nQual a sua idade?\n";
           cin >> s;
         }
